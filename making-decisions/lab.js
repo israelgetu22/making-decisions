@@ -134,7 +134,8 @@ if (changeMyMind === true) {
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
-
+changeMyMind = !changeMyMind;
+console.log(changeMyMind);
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
