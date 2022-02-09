@@ -7,12 +7,18 @@
 */
 
 //CODE HERE
+var labcode = true;
+if (labcode === true) {
+  console.log("I love to code!");
+} else {
+  console.log("Coding has its challenges.");
+}
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
+var amysAge = 29;
+var brittanisAge = 34;
+var amysBirthYear = 1991;
+var brittanisBirthYear = 1986;
 
 ////////// PROBLEM 2 //////////
 
@@ -22,7 +28,6 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
-
 ////////// PROBLEM 3 //////////
 
 /*
@@ -31,11 +36,10 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
-
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = true
+let temperature = 55;
+let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -43,7 +47,6 @@ let rain = true
 */
 
 //CODE HERE
-
 
 ////////// PROBLEM 5 //////////
 
@@ -53,7 +56,6 @@ let rain = true
 
 //CODE HERE
 
-
 ////////// PROBLEM 6 //////////
 
 /*
@@ -61,7 +63,6 @@ let rain = true
 */
 
 //CODE HERE
-
 
 ////////// PROBLEM 7 //////////
 
@@ -71,8 +72,8 @@ let rain = true
 
 //CODE HERE
 
-let score = 0
-let passingScore = 7
+let score = 0;
+let passingScore = 7;
 
 ////////// PROBLEM 8 //////////
 
@@ -98,13 +99,11 @@ let passingScore = 7
 
 //CODE HERE
 
-
-
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
 
-let z = 5
+let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
